@@ -36,7 +36,7 @@ ldconfig
 
 ### Test the installation
 ```bash
-pkg-config --modversion opencv
+pkg-config --modversion opencv4
 ```
 The ideal output here is the version of your OpenCV install
 
