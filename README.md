@@ -18,6 +18,7 @@ git clone https://github.com/opencv/opencv_contrib.git
 cd opencv
 mkdir release
 cd release
+# Note, OPENCV_ENABLE_NONFREE installs patented libraries that are only permited for use in non-commercial projects. Set this to OFF if your project is for commercial use.
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
     -D WITH_CUDA=OFF \
