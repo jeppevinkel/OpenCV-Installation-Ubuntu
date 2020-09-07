@@ -42,3 +42,9 @@ The ideal output here is the version of your OpenCV install
 
 ### Done
 Now OpenCV should be installed, and ready for use on your computer!
+
+### Include flags for C++
+The following command can be used when compiling, to add the proper includeflags for OpenCV4
+```bash
+pkg-config --cflags --libs opencv4
+```
